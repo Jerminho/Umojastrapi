@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "study_blogs",
+  "info": {
+    "singularName": "study-blog",
+    "pluralName": "study-blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LongText": {
+      "type": "text"
+    },
+    "BlogPostDate": {
+      "type": "date"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
