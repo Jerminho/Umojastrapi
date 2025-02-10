@@ -31,6 +31,7 @@
   "npm": "9.x"
   },
   "strapi": {
-    "uuid": "a5ed4c18-0be8-4ffb-a706-98e24b11d7d6"
+    "uuid": "a5ed4c18-0be8-4ffb-a706-98e24b11d7d6",
+    "typescript": true
   }
 }
